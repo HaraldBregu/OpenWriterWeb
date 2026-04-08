@@ -63,8 +63,8 @@ export function Header() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex">
-          <Button asChild>
-            <a href="https://github.com/HaraldBregu/openwriter/releases">Download</a>
+          <Button render={<a href="https://github.com/HaraldBregu/openwriter/releases" />}>
+            Download
           </Button>
         </div>
 
