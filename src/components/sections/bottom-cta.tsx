@@ -44,15 +44,13 @@ export function BottomCta() {
             {platforms.map((platform) => (
               <Button
                 key={platform.label}
-                asChild
+                render={<a href="https://github.com/HaraldBregu/openwriter/releases" />}
                 variant="secondary"
                 size="lg"
                 className="h-12 w-full px-6 text-base sm:w-auto"
               >
-                <a href="https://github.com/HaraldBregu/openwriter/releases">
-                  <platform.icon className="mr-1.5 size-4" />
-                  {platform.label}
-                </a>
+                <platform.icon className="mr-1.5 size-4" />
+                {platform.label}
               </Button>
             ))}
           </div>
