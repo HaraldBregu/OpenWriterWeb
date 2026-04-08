@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Github, Shield, Cpu, HardDrive } from "lucide-react";
+import { ArrowRight, ExternalLink, Shield, Cpu, HardDrive } from "lucide-react";
 
 const trustBadges = [
   { label: "MIT Licensed", icon: Shield },
@@ -46,7 +46,7 @@ export function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Github className="mr-1.5 size-4" />
+                <ExternalLink className="mr-1.5 size-4" />
                 View on GitHub
               </a>
             </Button>
