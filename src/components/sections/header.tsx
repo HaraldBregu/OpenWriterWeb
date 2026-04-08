@@ -96,8 +96,8 @@ export function Header() {
               </a>
             ))}
             <div className="mt-2 px-3">
-              <Button asChild className="w-full">
-                <a href="https://github.com/HaraldBregu/openwriter/releases">Download</a>
+              <Button render={<a href="https://github.com/HaraldBregu/openwriter/releases" />} className="w-full">
+                Download
               </Button>
             </div>
           </nav>
