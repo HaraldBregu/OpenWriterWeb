@@ -13,7 +13,8 @@
       "Bash(git push:*)",
       "Bash(npx next:*)",
       "Bash(node -e \"const l = require\\('lucide-react'\\); const keys = Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('github'\\)\\); console.log\\(keys\\);\")",
-      "Bash(npx -y node -e \"const l = require\\('lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('git'\\)\\)\\)\")"
+      "Bash(npx -y node -e \"const l = require\\('lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('git'\\)\\)\\)\")",
+      "Bash(node:*)"
     ]
   },
   "hooks": {
