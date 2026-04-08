@@ -7,7 +7,8 @@
       "Bash(npx shadcn@latest:*)",
       "Bash(npm run:*)",
       "Bash(npm install:*)",
-      "Bash(chmod +x:*)"
+      "Bash(chmod +x:*)",
+      "Bash(git add:*)"
     ]
   },
   "hooks": {
