@@ -19,11 +19,13 @@ export function MidCta() {
             OpenWriter brings them together in one app.
           </p>
           <div className="mt-8">
-            <Button asChild size="lg" className="h-12 px-6 text-base">
-              <a href="https://github.com/HaraldBregu/openwriter/releases">
-                Download OpenWriter
-                <ArrowRight className="ml-1 size-4" />
-              </a>
+            <Button
+              render={<a href="https://github.com/HaraldBregu/openwriter/releases" />}
+              size="lg"
+              className="h-12 px-6 text-base"
+            >
+              Download OpenWriter
+              <ArrowRight className="ml-1 size-4" />
             </Button>
           </div>
         </div>
