@@ -34,21 +34,28 @@ export function Hero() {
 
           {/* CTAs */}
           <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:gap-4">
-            <Button asChild size="lg" className="h-12 px-6 text-base">
-              <a href="https://github.com/HaraldBregu/openwriter/releases">
-                Download for Free
-                <ArrowRight className="ml-1 size-4" />
-              </a>
+            <Button
+              render={<a href="https://github.com/HaraldBregu/openwriter/releases" />}
+              size="lg"
+              className="h-12 px-6 text-base"
+            >
+              Download for Free
+              <ArrowRight className="ml-1 size-4" />
             </Button>
-            <Button asChild variant="outline" size="lg" className="h-12 px-6 text-base">
-              <a
-                href="https://github.com/HaraldBregu/openwriter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ExternalLink className="mr-1.5 size-4" />
-                View on GitHub
-              </a>
+            <Button
+              render={
+                <a
+                  href="https://github.com/HaraldBregu/openwriter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              }
+              variant="outline"
+              size="lg"
+              className="h-12 px-6 text-base"
+            >
+              <ExternalLink className="mr-1.5 size-4" />
+              View on GitHub
             </Button>
           </div>
 
